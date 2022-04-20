@@ -2,11 +2,11 @@ import { Fragment } from "react";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 
-import Hero from "@components/section/Hero";
-import SectionAbout from "@components/section/SectionAbout";
-import SectionImage from "@components/section/SectionImage";
-import SectionReview from "@components/section/SectionReview";
-import NavigationCard from "@components/card/NavigationCard";
+import Hero from "../components/section/Hero";
+import SectionAbout from "../components/section/SectionAbout";
+import SectionImage from "../components/section/SectionImage";
+import SectionReview from "../components/section/SectionReview";
+import NavigationCard from "../components/card/NavigationCard";
 
 const Homepage = () => {
   return (

@@ -1,8 +1,10 @@
 import { Container, Grid } from "@mui/material";
 import Image from "next/image";
 import Typography from "@mui/material/Typography";
-import MuiNextLink from "@components/MuiNextLink";
 import Button from "@mui/material/Button";
+
+import MuiNextLink from "../MuiNextLink";
+
 
 const SectionAbout = () => {
   return (

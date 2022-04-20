@@ -5,7 +5,7 @@ import { CacheProvider } from '@emotion/react';
 import createEmotionCache from '../styles/createEmotionCache';
 
 import Header from "../components/nav/Header";
-import Footer from '@components/section/Footer';
+import Footer from '../components/section/Footer';
 
 import "/styles/globals.css";
 import theme from '../styles/theme';

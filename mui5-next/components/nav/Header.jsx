@@ -4,7 +4,7 @@ import Toolbar from "@mui/material/Toolbar";
 import { styled } from "@mui/system";
 import IconButton from "@mui/material/IconButton";
 import Home from "@mui/icons-material/Home";
-import MuiNextLink from "@components/MuiNextLink";
+import MuiNextLink from "../MuiNextLink";
 import Fab from "@mui/material/Fab";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
 import BackToTop from "../BackToTop";
@@ -49,7 +49,7 @@ const Header = () => {
           </Toolbar>
         </AppBar>
       </HideOnScroll>
-      <Offset id="back-to-top-anchor" />
+      <Offset id="back-to-top-anchor"/>
       <BackToTop>
         <Fab color="secondary" size="large" aria-label="back to top">
           <KeyboardArrowUp />

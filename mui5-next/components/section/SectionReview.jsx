@@ -1,5 +1,7 @@
-import ReviewCard from "@components/card/ReviewCard";
 import { Container, Grid, Typography } from "@mui/material";
+
+import ReviewCard from "../card/ReviewCard";
+
 
 const SectionReview = () => {
   return (

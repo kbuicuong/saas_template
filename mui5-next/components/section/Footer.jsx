@@ -2,7 +2,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Stack from "@mui/material/Stack";
 import { Facebook, Instagram, Twitter } from "@mui/icons-material";
-import MuiNextLink from "@components/MuiNextLink";
+import MuiNextLink from "../MuiNextLink";
 
 const Footer = () => {
   return (
