@@ -7,11 +7,11 @@ import Home from "@mui/icons-material/Home";
 import MuiNextLink from "@components/MuiNextLink";
 import Fab from "@mui/material/Fab";
 import KeyboardArrowUp from "@mui/icons-material/KeyboardArrowUp";
-import BackToTop from "./BackToTop";
+import BackToTop from "../BackToTop";
 
 import Navbar from "./Navbar";
 import SideDrawer from "./SideDrawer";
-import HideOnScroll from "./HideOnScroll";
+import HideOnScroll from "../HideOnScroll";
 
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
