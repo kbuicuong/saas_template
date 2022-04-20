@@ -5,6 +5,7 @@ import { CacheProvider } from '@emotion/react';
 import createEmotionCache from '../styles/createEmotionCache';
 
 import Header from "../components/nav/Header";
+import Footer from '@components/section/Footer';
 
 import "/styles/globals.css";
 import theme from '../styles/theme';
@@ -27,6 +28,7 @@ export default function MyApp(props) {
         <CssBaseline />
         <Header />
         <Component {...pageProps} />
+        <Footer />
       </ThemeProvider>
     </CacheProvider>
   );
