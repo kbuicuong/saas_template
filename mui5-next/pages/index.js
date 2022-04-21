@@ -8,6 +8,7 @@ import SectionImage from "../components/section/SectionImage";
 import SectionReview from "../components/section/SectionReview";
 import NavigationCard from "../components/card/NavigationCard";
 import SectionJobs from "../components/section/SectionJobs";
+import SectionSkills from "../components/section/SectionSkills";
 
 const Homepage = () => {
   return (
@@ -19,6 +20,8 @@ const Homepage = () => {
         subtitle="Frontend Developer"
       />
       <SectionAbout />
+
+      <SectionSkills/>
 
       <SectionJobs/>
 
