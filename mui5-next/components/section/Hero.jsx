@@ -23,7 +23,7 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
         sx={{
           position: "absolute",
           inset: 0,
-          backgroundColor: "rgba(0,0,0, .7)",
+          backgroundColor: "rgba(0,0,0, .4)",
         }}
       ></Grid>
       <Grid
@@ -34,20 +34,21 @@ const Hero = ({ imgSrc, imgAlt, title, subtitle }) => {
         alignItems="center"
         sx={{ zIndex: 1 }}
       >
+        {/* type out letter by letter */}
         <Typography
           variant="h1"
           align="center"
           gutterBottom
           sx={{
             color: "secondary.main",
-            fontWeight: 400,
+            fontWeight: 300,
           }}
         >
           {title}
         </Typography>
         <Typography
           component="p"
-          variant="h3"
+          variant="h4"
           align="center"
           color="common.white"
           sx={{

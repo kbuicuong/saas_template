@@ -9,11 +9,14 @@ import MuiNextLink from "../MuiNextLink";
 const SectionAbout = () => {
   return (
     <Container component="section" maxWidth="md" sx={{ mb: 15 }}>
+      <Typography id="about" variant="h2" textAlign="center" sx={{ mb: 10 }}>
+        About Me
+      </Typography>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
           <Image
-            src="/chef.svg"
-            alt="A Chef"
+            src="/programming.svg"
+            alt="A Programmer"
             layout="responsive"
             width={800}
             height={600}
@@ -34,12 +37,10 @@ const SectionAbout = () => {
             textAlign="center"
             gutterBottom
           >
-            A Japanese Chef Who Love Western Food
+            A Frontend Developer with an appetite to learn
           </Typography>
           <Typography textAlign="center" sx={{mb:5}}>
-            {`We mix Japanese and Western ingredients and cooking methods. Provide you
-    with a different tasting dimension with the fusion food in our restaurant.
-    Don't miss the chance to surprise your tongue!`}
+            {`Logical and results-driven Frontend Developer dedicated to building and optimizing user-focused websites for customers with various business objectives. Judicious and creative when crafting effective websites, apps and platforms to propel competitive advantage and revenue growth. Technically proficient and analytical problem solver with calm and focused demeanor.`}
           </Typography>
           <MuiNextLink href="/about-us" underline="none">
             <Button variant="outlined" size="large">

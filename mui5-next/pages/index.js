@@ -7,23 +7,26 @@ import SectionAbout from "../components/section/SectionAbout";
 import SectionImage from "../components/section/SectionImage";
 import SectionReview from "../components/section/SectionReview";
 import NavigationCard from "../components/card/NavigationCard";
+import SectionJobs from "../components/section/SectionJobs";
 
 const Homepage = () => {
   return (
     <Fragment>
       <Hero
-        imgSrc="/home-hero.jpg"
-        imgAlt="satified woman eating in restaurant"
-        title="De West Sakura"
-        subtitle="Best Western &amp; Japanese Fusion Restaurant In Town"
+        imgSrc="/laptop-hero.jpg"
+        imgAlt="mac computer on a desk"
+        title="Hi, I'm Kevin"
+        subtitle="Frontend Developer"
       />
       <SectionAbout />
 
-      <SectionImage imgSrc="/fusion-food.jpg" imgAlt="fusion food" />
+      <SectionJobs/>
 
-      <SectionReview />
+      {/* <SectionImage imgSrc="/fusion-food.jpg" imgAlt="fusion food" /> */}
 
-      <SectionImage imgSrc="/sushi.jpg" imgAlt="sushi" />
+      {/* <SectionReview /> */}
+
+      {/* <SectionImage imgSrc="/sushi.jpg" imgAlt="sushi" /> */}
 
       <Container maxWidth="md" sx={{ my: 15 }}>
         <Grid container spacing={2}>
@@ -49,6 +52,7 @@ const Homepage = () => {
           </Grid>
         </Grid>
       </Container>
+
     </Fragment>
   );
 };
