@@ -5,6 +5,8 @@ import Slide from "@mui/material/Slide";
 const HideOnScroll = ({ children }) => {
   const trigger = useScrollTrigger();
 
+  console.log(trigger);
+
   return (
     <Slide appear={false} direction="down" in={!trigger}>
       {children}
