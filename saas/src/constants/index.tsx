@@ -10,6 +10,12 @@ type featuresType = {
   };
 };
 
+export type faqType = {
+  id: string;
+  question: string;
+  answer: string;
+};
+
 export const features: featuresType[] = [
   {
     id: "0",
@@ -58,7 +64,7 @@ export const details = [
   },
 ];
 
-export const faq = [
+export const faq: faqType[] = [
   {
     id: "0",
     question: "How easy is it to setup Xora?",
