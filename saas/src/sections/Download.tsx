@@ -1,4 +1,3 @@
-import React from "react";
 import { Element } from "react-scroll";
 import { links, logos } from "../constants";
 import Marker from "../components/Marker.tsx";
@@ -28,7 +27,7 @@ const Download = () => {
               </p>
 
               <ul className="flex flex-wrap items-center gap-6">
-                {links.map((link, index) => (
+                {links.map((link) => (
                   <li
                     key={link.id}
                     className="download_tech-link download_tech-link_last-before download_tech-link_last-after"
@@ -71,7 +70,7 @@ const Download = () => {
             </div>
           </div>
           <ul className="mt-24 flex justify-center max-lg:hidden">
-            {logos.map((logo, index) => (
+            {logos.map((logo) => (
               <li key={logo.id} className="mx-10">
                 <img
                   src={logo.url}
