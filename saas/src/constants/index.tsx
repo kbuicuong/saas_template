@@ -16,6 +16,14 @@ export type faqType = {
   answer: string;
 };
 
+export type testimonialType = {
+  id: string;
+  name: string;
+  role: string;
+  avatarUrl: string;
+  comment: string;
+};
+
 export const features: featuresType[] = [
   {
     id: "0",
@@ -175,7 +183,7 @@ export const plans = [
   },
 ];
 
-export const testimonials = [
+export const testimonials: testimonialType[] = [
   {
     id: "0",
     name: "Jessica Saunders",

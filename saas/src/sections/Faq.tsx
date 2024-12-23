@@ -1,6 +1,4 @@
-import React from "react";
 import { Element } from "react-scroll";
-import clsx from "clsx";
 import { faq } from "../constants";
 import FaqItem from "../components/FaqItem.tsx";
 
